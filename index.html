@@ -11,31 +11,28 @@
   <body class="home " cz-shortcut-listen="true" style="">
 
 
-<nav className="home-page-menu">
+<nav class="home-page-menu">
         <div>
-          <a to={`/terms`}>Terms</a>
+          <a href='/terms'>Terms</a>
         </div>
         <div>
-          <a to={`/privacy`}>Privacy</a>
-        </div>
-        <div>
-          <a to={`/login`}>Login</a>
+          <a href='privacy'>Privacy</a>
         </div>
       </nav>
-      <section className="flex_vertical_align space_around login-content flew_column_800">
-        <div className="flex1 height100 flex_column">
-          <h1 className="flex_vertical_align">
+      <section class="flex_vertical_align space_around login-content flew_column_800">
+        <div class="flex1 height100 flex_column">
+          <h1 class="flex_vertical_align">
             <img
-              src={logo}
+              src='./img/logo.png'
               alt="Logo Skya.io - Email Client, Notes and To Dos"
-              style={{ width: '50px' }}
-            />{' '}
+              style='width:50px'
+            />
             Skya
           </h1>
-          <div className="flex1 flex_vertical_align space_around">
+          <div class="flex1 flex_vertical_align space_around">
             <div>
               <div>
-                <h2 className="main-title">
+                <h2 class="main-title">
                   Power up your To Dos and Notes with your Emails
                 </h2>
                 <h3>Skya is all you need in one tool.</h3>
@@ -44,7 +41,7 @@
                   collaboration and organization.
                 </h3>
               </div>
-              <div className="button">
+              <div class="button">
                 <p>
                   <a
                     href="https://calendly.com/paolo-skya-io/sample-30min"
@@ -55,46 +52,46 @@
                   </a>
                 </p>
               </div>
-              <p className="sub-info">or</p>
-              <div className="button">
+              <p class="sub-info">or</p>
+              <div class="button">
                 <p>
                   <a href="/login">I don't need an onBoarding</a>
                 </p>
               </div>
-              <h3 className="sub-info">For individuals & Teams</h3>
-              <p className="sub-info">
+              <h3 class="sub-info">For individuals & Teams</h3>
+              <p class="sub-info">
                 Web App Beta Version Available, Desktop and Mobile are coming
                 Soon
               </p>
             </div>
           </div>
         </div>
-        <div className="flex1">
-          <div className="container-image">
+        <div class="flex1">
+          <div class="container-image">
             <img
-              className="main-image"
-              src={mainScreen}
+              class="main-image"
+              src="./img/main-1.jpg"
               alt="Power your email into To Dos and Notes with Skya.io"
-              style={{ width: '100%', marginLeft: '50px' }}
+              style='width:100%;margin-left:50px'
             />
           </div>
         </div>
       </section>
-      <section className="content-citation">
-        <h2 className="citation">Keep emailing Notes & To Dos to yourself ?</h2>
-        <p className="sub-citation">
+      <section class="content-citation">
+        <h2 class="citation">Keep emailing Notes & To Dos to yourself ?</h2>
+        <p class="sub-citation">
           Don't change your habit, use a tool that is made for it
         </p>
-        <div className="separation" />
+        <div class="separation" />
       </section>
-      <section className="flew_column_800 flex_vertical_align section-feature">
-        <div className="flex_vertical_align space_around">
-          <div className="section-feature-image">
-            <img src={mainSecond} alt="Transform your email into to dos" />
+      <section class="flew_column_800 flex_vertical_align section-feature">
+        <div class="flex_vertical_align space_around">
+          <div class="section-feature-image">
+            <img src="./img/main-2.jpg" alt="Transform your email into to dos" />
           </div>
         </div>
-        <div className="flex_vertical_align space_around flew_column_800">
-          <div className="flex1 flex_column space_around">
+        <div class="flex_vertical_align space_around flew_column_800">
+          <div class="flex1 flex_column space_around">
             <h2>
               Transform your Emails into To Dos and Notes, with a simple click
               or anchor in your subject.
@@ -107,9 +104,9 @@
           </div>
         </div>
       </section>
-      <section className="flew_column_800 flex_vertical_align section-feature">
-        <div className="flex_vertical_align space_around flew_column_800 order1">
-          <div className="flex1 flex_column space_around">
+      <section class="flew_column_800 flex_vertical_align section-feature">
+        <div class="flex_vertical_align space_around flew_column_800 order1">
+          <div class="flex1 flex_column space_around">
             <h2>
               Skya does not save your Contacts or your Email contents in it's
               data base.
@@ -120,19 +117,19 @@
               of your email without an explicit agreement from you.
             </p>
             <p>
-              Check our{' '}
-              <Link to={`/privacy`} className="sub-link">
+              Check our 
+              <a href='/privacy' class="sub-link">
                 Privacy
-              </Link>{' '}
-              -{' '}
-              <Link to={`/terms`} className="sub-link">
+              </a> 
+              - 
+              <a href='/terms' class="sub-link">
                 Terms
-              </Link>
+              </a>
             </p>
           </div>
         </div>
-        <div className="flex_vertical_align space_around">
-          <div className="section-feature-image">
+        <div class="flex_vertical_align space_around">
+          <div class="section-feature-image">
             <img
               src="https://images.unsplash.com/photo-1459347268516-3ed71100e718?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
               alt="Transform your email into to dos"
@@ -140,18 +137,93 @@
           </div>
         </div>
       </section>
-      <AllInOnePlace />
-      <div className="separation" />
-      <FuturFeature />
-      <div className="separation" />
-      <section class='team'>
-      <h2 className="citation">The Team</h2>
+      <section class="all_in_on_place"><h2 className="citation">With Skya, all your work is in one place</h2>
       <p className="sub-citation">
+        Four tools in one. No more getting lost in tabs.
+      </p>
+      <div>
+        <div className="flex_vertical_align space_around">
+          <div className="flex_vertical_align">
+            <div className="number-info">1</div>
+            <div className="title-info">
+              <h3>Notes & Docs</h3>
+              <p>A simple, beautiful writing experience</p>
+            </div>
+            <div className="replace">
+              <Note className="info-icons" />
+              <p>Replace Google Docs, Evernote</p>
+            </div>
+          </div>
+        </div>
+        <div className="image-container">
+          <img src='./img/main-3.jpg' alt="Skya Note and Docs replace Google Docs of Evernote, the best alternative" />
+        </div>
+      </div>
+      <div>
+        <div className="flex space_around">
+          <div className="flex_vertical_align">
+            <div className="number-info">2</div>
+            <div className="title-info">
+              <h3>To Dos Lists</h3>
+              <p>Organize it all</p>
+            </div>
+            <div className="replace">
+              <CheckBoxOutlineBlank className="info-icons" />
+              <p>Replace Todoist, Things</p>
+            </div>
+          </div>
+        </div>
+        <div className="image-container">
+          <img src='./img/main-4.jpg' alt="Skya Todos replace Todoist of Wonderlist, the best alternative" />
+        </div>
+      </div>
+      <div>
+        <div className="flex_vertical_align space_around">
+          <div className="flex_vertical_align">
+            <div className="number-info">3</div>
+            <div className="title-info">
+              <h3>Email Client</h3>
+              <p>Is not just another Email client</p>
+            </div>
+            <div className="replace">
+              <Mail className="info-icons" />
+              <p>Replace Gmail, Outlook</p>
+            </div>
+          </div>
+        </div>
+        <div className="image-container">
+          <img src='./img/main-1.jpg' alt="Skya Email Client replace Gmail of MailJet, the best alternative" />
+        </div>
+      </div>
+      <div>
+        <div className="flex_vertical_align space_around">
+          <div className="flex_vertical_align">
+            <div className="number-info">4</div>
+            <div className="title-info">
+              <h3>All together </h3>
+              <p>One tool to rule them all</p>
+            </div>
+            <div className="replace">
+              <MergeType className="info-icons" />
+              <p>Replace none, there is nothing like it</p>
+            </div>
+          </div>
+        </div>
+        <div className="image-container">
+          <img src='./img/main-5.jpg' alt="Skya Email Client combine with todo and notes" />
+        </div>
+      </div></section>
+      <div class="separation" />
+      <FuturFeature />
+      <div class="separation" />
+      <section class='team'>
+      <h2 class="citation">The Team</h2>
+      <p class="sub-citation">
         Skya is a new project, which started in December 2019
       </p>
       <div>
-        <div className="flex_vertical_align space_between team-container flew_column_800">
-          <div className="flex_column flex_vertical_align">
+        <div class="flex_vertical_align space_between team-container flew_column_800">
+          <div class="flex_column flex_vertical_align">
             <img
               src="https://media.licdn.com/dms/image/C5603AQF6ihwkZjEG3g/profile-displayphoto-shrink_200_200/0?e=1583971200&v=beta&t=Fj7JuvAhj4ljhFofFHcG3r-NQrItzsD1rLF-rMZCJo8"
               alt="PAolo Castro CTO of Skya and Founder"
@@ -162,14 +234,14 @@
               LinkedIn
             </a>
           </div>
-          <div className="flex_column flex_vertical_align">
-            <div className="interogation flex_vertical_align space_around">
+          <div class="flex_column flex_vertical_align">
+            <div class="interogation flex_vertical_align space_around">
               ?
             </div>
             <h2>
               <span role="img" aria-label="Skya is searching for a CEO">
                 👉
-              </span>{' '}
+              </span> 
               You
             </h2>
             <p>CEO</p>
@@ -177,14 +249,14 @@
               Contact me on LinkedIn
             </a>
           </div>
-          <div className="flex_column flex_vertical_align">
-            <div className="interogation flex_vertical_align space_around">
+          <div class="flex_column flex_vertical_align">
+            <div class="interogation flex_vertical_align space_around">
               ?
             </div>
             <h2>
               <span role="img" aria-label="Skya is searching for a partners">
                 👉
-              </span>{' '}
+              </span> 
               You
             </h2>
             <p>Partners</p>
@@ -195,15 +267,15 @@
         </div>
       </div>
       <section>
-      <footer className="flex space_around footer">
+      <footer class="flex space_around footer">
         <div>
-          <a href={`/privacy`}>Privacy</a> -{' '}
-          <a href={`/terms`}>Terms</a>
+          <a href='/privacy'>Privacy</a> - 
+          <a href='/terms'>Terms</a>
         </div>
         <div>
           <a href="https://www.facebook.com/Skyaio-102943134561007/">
             Facebook
-          </a>{' '}
+          </a> 
           - <a href="https://twitter.com/skya_io">Twitter</a>
         </div>
         <p>© 2020 Skya</p>
